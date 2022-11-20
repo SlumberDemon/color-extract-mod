@@ -33,7 +33,7 @@ def extract_from_image(img, tolerance=DEFAULT_TOLERANCE, limit=None):
         limit = min(int(limit), len(colors))
         colors = colors[:limit]
 
-    colors = [(color.rgb, color.count) for color in colors]
+    colors = [(color.rgb) for color in colors]
 
     return colors, pixel_count
 
