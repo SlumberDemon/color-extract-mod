@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-	name="extcolors",
+	name="colorpal",
 	version="1.0.0",
 	description="Extract colors from an image. "
 				"Colors are grouped based on visual similarities using the CIE76 formula.",
@@ -31,7 +31,7 @@ setup(
 	],
 	python_requires=">=3.6",
 	keywords="extract colors image",
-	packages=["extcolors"],
+	packages=["colorpal"],
 	install_requires=[
 		"Pillow >=8.0.0",
 		"convcolors >=1.0.0",
