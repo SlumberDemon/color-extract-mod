@@ -19,7 +19,7 @@ Package
 +++++++
 ::
 
-    $ pip install extcolors
+    $ pip install git+https://github.com/SlumberDemon/color-extract-mod
 
 ++++++++
 Manually
