@@ -31,7 +31,7 @@ setup(
 	],
 	python_requires=">=3.6",
 	keywords="extract colors image",
-	packages=["colorpal"],
+	packages=["extcolors"],
 	install_requires=[
 		"Pillow >=8.0.0",
 		"convcolors >=1.0.0",
