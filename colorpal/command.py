@@ -5,7 +5,7 @@ import time
 
 from PIL import Image, ImageDraw
 
-from extcolors import __version__, DEFAULT_TOLERANCE, extract_from_path
+from colorpal import __version__, DEFAULT_TOLERANCE, extract_from_path
 
 
 def print_result(colors, pixel_count):

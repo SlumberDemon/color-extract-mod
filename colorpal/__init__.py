@@ -3,7 +3,7 @@ import collections
 from convcolors import rgb_to_lab
 from PIL import Image, ImageDraw
 
-from extcolors import difference
+from colorpal import difference
 
 __version__ = "1.0.0"
 
